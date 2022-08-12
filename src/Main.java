@@ -8,7 +8,7 @@ public class Main {
         Book[] arr = new Book[] {blacksky,bluesky,null,null,null};
         Book brownsky = new Book("brownsky",john,2005);
         addBook(brownsky,arr);
-        printBooks(arr);
+        System.out.println(john.equals(john));
     }
 
     public static void addBook(Book book, Book arr[]){
